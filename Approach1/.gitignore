@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Model files (too large for GitHub)
+*.safetensors
+*.bin
+pytorch_model.bin
+model.safetensors
+
+# Tokenizer files (can be regenerated)
+out_new/tokenizer.json
+out_new/vocab.txt
+out_new/tokenizer_config.json
+out_new/special_tokens_map.json
+
+# Unused model directory
+out_tiny/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+
+# PDF files
+*.pdf
